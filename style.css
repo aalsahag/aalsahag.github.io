@@ -7,63 +7,23 @@ body {
     color: #000000; /* Black text */
 }
 
-/* Social Media Icons (Inside About Section, Left-Aligned) */
-.social-icons {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-right: 20px; /* Space between icons and text */
-}
-
-.social-icons a img {
-    width: 25px;
-    height: 25px;
-    margin: 5px 0;
-    transition: transform 0.3s ease-in-out;
-}
-
-.social-icons a img:hover {
-    transform: scale(1.2);
-}
-
-/* Header */
-header {
-    text-align: center;
-    padding: 30px;
-    border-bottom: 1px solid #ddd;
-}
-
-header h1 {
-    margin: 10px 0;
-    font-size: 36px;
-}
-
-header p {
-    font-size: 18px;
-    color: #666;
-}
-
-/* Profile Picture */
-.profile-pic {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    display: block;
-    margin: 0 auto 15px;
-}
-
-/* Navigation Bar */
+/* Navigation Bar (Tabs at the Top) */
 nav {
     background-color: #f8f8f8;
     border-bottom: 1px solid #ddd;
     padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    z-index: 1000;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    text-align: center;
 }
 
 nav ul li {
@@ -85,17 +45,43 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
-/* About Section */
+/* About Section Layout */
 .about-section {
     display: flex;
     align-items: center;
     max-width: 800px;
-    margin: 20px auto;
+    margin: 80px auto 20px; /* Adjusted margin for fixed navbar */
     padding: 20px;
 }
 
-.about-section p {
-    flex: 1; /* Expands text on the right */
+/* Profile Picture */
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+/* About Content */
+.about-content {
+    flex: 1;
+}
+
+/* Social Media Icons */
+.social-icons {
+    display: flex;
+    margin-top: 10px;
+}
+
+.social-icons a img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icons a img:hover {
+    transform: scale(1.2);
 }
 
 /* Main Content */
