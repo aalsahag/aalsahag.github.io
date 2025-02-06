@@ -7,8 +7,11 @@ body {
     color: #000000; /* Black text */
 }
 
-/* Header with Navigation and Social Media */
-header {
+/* Header Container */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     width: 100%;
     background-color: #f8f8f8;
     border-bottom: 1px solid #ddd;
@@ -16,66 +19,54 @@ header {
     top: 0;
     left: 0;
     z-index: 1000;
-    padding: 10px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    padding: 10px 20px;
 }
 
-/* Navigation Bar */
-nav {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    padding: 0 20px;
-    align-items: center;
-}
-
-.nav-left {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-}
-
-.nav-left li {
-    margin-right: 15px;
-}
-
-.nav-left li a {
-    text-decoration: none;
-    color: #333;
-    font-size: 18px;
-    padding: 10px 15px;
-    transition: background 0.3s;
-}
-
-.nav-left li a:hover {
-    background-color: #ddd;
-    border-radius: 5px;
-}
-
-/* Social Media Icons (Aligned Right in Header) */
+/* Social Media Icons (Top Left) */
 .social-icons {
-    list-style: none;
-    padding: 0;
-    margin: 0;
     display: flex;
     align-items: center;
-}
-
-.social-icons li {
-    margin-left: 10px;
 }
 
 .social-icons a img {
     width: 25px;
     height: 25px;
+    margin-right: 10px;
     transition: transform 0.3s ease-in-out;
 }
 
 .social-icons a img:hover {
     transform: scale(1.2);
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 15px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.nav-links li a:hover {
+    background-color: pink;
+    border-radius: 5px;
+    color: white;
 }
 
 /* About Section */
