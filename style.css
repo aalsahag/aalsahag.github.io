@@ -3,92 +3,67 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ffffff; /* White Background */
-    color: #000000; /* Black Text */
+    background-color: #ffffff; /* White background */
+    color: #000000; /* Black text */
 }
 
 /* Header */
 header {
-    background-color: #ffffff; /* White Header */
-    color: #000000; /* Black Text */
     text-align: center;
-    padding: 30px;
-    border-bottom: 2px solid #ddd; /* Light border for separation */
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
 }
 
 header h1 {
     margin: 10px 0;
-    font-size: 32px;
+    font-size: 36px;
 }
 
 header p {
     font-size: 18px;
+    color: #666;
 }
 
 /* Navigation Bar */
 nav {
-    background-color: transparent; /* No background */
-    padding: 10px 0;
-    text-align: center;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
 }
 
 nav ul {
     list-style-type: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+    display: inline-block;
 }
 
 nav ul li a {
-    color: #000000; /* Black Links */
+    display: block;
+    padding: 10px 20px;
     text-decoration: none;
-    font-size: 18px;
-    padding: 10px 15px;
+    color: #333;
 }
 
 nav ul li a:hover {
-    background-color: #f0f0f0; /* Light hover effect */
-    border-radius: 5px;
-}
-
-/* Social Media Icons */
-.social-icons {
-    position: absolute;
-    top: 15px;
-    left: 15px;
-}
-
-.social-icons a img {
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
-    transition: transform 0.3s ease-in-out;
-}
-
-.social-icons a img:hover {
-    transform: scale(1.2);
+    background-color: #ddd;
 }
 
 /* Main Content */
 main {
     max-width: 800px;
-    margin: 30px auto;
+    margin: 20px auto;
     padding: 20px;
-    background-color: #ffffff; /* White background */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
 }
 
 /* Footer */
 footer {
     text-align: center;
-    padding: 15px;
-    background-color: #ffffff; /* White footer */
-    color: #000000; /* Black Text */
-    border-top: 2px solid #ddd; /* Light border for separation */
-    margin-top: 20px;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    color: #666;
+    font-size: 14px;
 }
