@@ -8,62 +8,50 @@ body {
 
 /* Header */
 header {
-    background-color: #333;
+    background-color: #004466;
     color: white;
     text-align: center;
-    padding: 40px 20px;
+    padding: 30px;
 }
 
-.profile-pic {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border: 4px solid white;
-    margin-bottom: 10px;
-}
-
-h1 {
+header h1 {
     margin: 10px 0;
+    font-size: 32px;
 }
 
-nav {
-    margin-top: 15px;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
+header p {
     font-size: 18px;
 }
 
-nav a:hover {
-    text-decoration: underline;
-}
-
-/* Main Content */
-main {
-    max-width: 800px;
-    margin: 30px auto;
-    padding: 20px;
-    background-color: white;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-}
-
-.about {
+/* Navigation Bar */
+nav {
+    background-color: #003355;
+    padding: 10px 0;
     text-align: center;
 }
 
-/* Footer */
-footer {
-    text-align: center;
-    padding: 15px;
-    background-color: #333;
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
     color: white;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #002244;
+    border-radius: 5px;
 }
 
 /* Social Media Icons */
@@ -82,4 +70,23 @@ footer {
 
 .social-icons a img:hover {
     transform: scale(1.2);
+}
+
+/* Main Content */
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #003355;
+    color: white;
+    margin-top: 20px;
 }
