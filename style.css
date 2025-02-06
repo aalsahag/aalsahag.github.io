@@ -65,3 +65,22 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+/* Social Media Icons */
+.social-icons {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.social-icons a img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    transition: transform 0.3s ease-in-out;
+    filter: grayscale(50%);
+}
+
+.social-icons a img:hover {
+    transform: scale(1.2);
+    filter: grayscale(0%);
+}
