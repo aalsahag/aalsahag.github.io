@@ -7,50 +7,83 @@ body {
     color: #000000; /* Black text */
 }
 
-/* Navigation Bar (Tabs at the Top) */
-nav {
+/* Header with Navigation and Social Media */
+header {
+    width: 100%;
     background-color: #f8f8f8;
     border-bottom: 1px solid #ddd;
-    padding: 10px 0;
     position: fixed;
-    width: 100%;
     top: 0;
     left: 0;
-    text-align: center;
     z-index: 1000;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-nav ul {
-    list-style-type: none;
+/* Navigation Bar */
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+}
+
+.nav-left {
+    list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
 }
 
-nav ul li {
-    display: inline-block;
-    margin: 0 10px;
+.nav-left li {
+    margin-right: 15px;
 }
 
-nav ul li a {
-    display: block;
-    padding: 10px 15px;
+.nav-left li a {
     text-decoration: none;
     color: #333;
     font-size: 18px;
+    padding: 10px 15px;
     transition: background 0.3s;
 }
 
-nav ul li a:hover {
+.nav-left li a:hover {
     background-color: #ddd;
     border-radius: 5px;
 }
 
-/* About Section Layout */
+/* Social Media Icons (Aligned Right in Header) */
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.social-icons li {
+    margin-left: 10px;
+}
+
+.social-icons a img {
+    width: 25px;
+    height: 25px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icons a img:hover {
+    transform: scale(1.2);
+}
+
+/* About Section */
 .about-section {
     display: flex;
     align-items: center;
     max-width: 800px;
-    margin: 80px auto 20px; /* Adjusted margin for fixed navbar */
+    margin: 100px auto 20px; /* Adjusted margin for fixed navbar */
     padding: 20px;
 }
 
@@ -65,23 +98,6 @@ nav ul li a:hover {
 /* About Content */
 .about-content {
     flex: 1;
-}
-
-/* Social Media Icons */
-.social-icons {
-    display: flex;
-    margin-top: 10px;
-}
-
-.social-icons a img {
-    width: 25px;
-    height: 25px;
-    margin-right: 10px;
-    transition: transform 0.3s ease-in-out;
-}
-
-.social-icons a img:hover {
-    transform: scale(1.2);
 }
 
 /* Main Content */
