@@ -3,8 +3,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ffffff; /* White Background */
-    color: #000000; /* Black Text */
+    background-color: #ffffff; /* White background */
+    color: #000000; /* Black text */
 }
 
 /* Social Media Icons */
@@ -42,7 +42,7 @@ header p {
     color: #666;
 }
 
-/* Profile Picture (Optional) */
+/* Profile Picture */
 .profile-pic {
     width: 150px;
     height: 150px;
