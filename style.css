@@ -3,15 +3,17 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f9fa;
+    background-color: #ffffff; /* White Background */
+    color: #000000; /* Black Text */
 }
 
 /* Header */
 header {
-    background-color: #004466;
-    color: white;
+    background-color: #ffffff; /* White Header */
+    color: #000000; /* Black Text */
     text-align: center;
     padding: 30px;
+    border-bottom: 2px solid #ddd; /* Light border for separation */
 }
 
 header h1 {
@@ -25,7 +27,7 @@ header p {
 
 /* Navigation Bar */
 nav {
-    background-color: #003355;
+    background-color: transparent; /* No background */
     padding: 10px 0;
     text-align: center;
 }
@@ -42,15 +44,14 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #000000; /* Black Links */
     text-decoration: none;
     font-size: 18px;
     padding: 10px 15px;
-    transition: background 0.3s;
 }
 
 nav ul li a:hover {
-    background-color: #002244;
+    background-color: #f0f0f0; /* Light hover effect */
     border-radius: 5px;
 }
 
@@ -77,7 +78,7 @@ main {
     max-width: 800px;
     margin: 30px auto;
     padding: 20px;
-    background-color: white;
+    background-color: #ffffff; /* White background */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
@@ -86,7 +87,8 @@ main {
 footer {
     text-align: center;
     padding: 15px;
-    background-color: #003355;
-    color: white;
+    background-color: #ffffff; /* White footer */
+    color: #000000; /* Black Text */
+    border-top: 2px solid #ddd; /* Light border for separation */
     margin-top: 20px;
 }
