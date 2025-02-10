@@ -2,16 +2,18 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>Researcher | Scientist | Academic
+
+</a>. Office Address: . Contacts. Motto. Etc.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Science Park 904 </p>
+    <p>123 1090 GE Amsterdam</p>
+    <p>The Netherlands</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,8 +29,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a lecturer and researcher at the University of Amsterdam, specializing in data science and artificial intelligence. My work focuses on developing innovative solutions that bridge the gap between technology and real-world applications.I hold a Ph.D. in Computer Science and have an international academic background, having pursued studies and research opportunities across different countries. This diverse experience has equipped me with a broad perspective and a deep understanding of global technological challenges and solutions.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Research Background & Interests:
+Energy Consumption Forecasting: Developing advanced machine learning models to predict energy demand patterns, with a focus on enhancing the accuracy and lead time of forecasts. My latest publication, "Enhancing the Predictability of Wintertime Energy Demand in The Netherlands Using Ensemble Model Prophet-LSTM," addresses the challenges of energy demand forecasting in the context of rising energy prices and climate change impacts.
+AI-Based Environmental Monitoring: Leading projects such as "AI-Based Monitoring and Quality Prediction of Groundwater in Zuid-Holland," aiming to integrate artificial intelligence techniques for environmental sustainability.
+Transportation Analytics: Investigating the application of machine learning in transportation systems, exemplified by the project "Forecasting the Evolution of Delays and Its Influencers in the Dutch Train Network Using Machine Learning," which seeks to improve the efficiency and reliability of train services in the Netherlands.
+Academic Background:
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
