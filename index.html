@@ -1,65 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A. Alsahag - Personal Website</title>
-    <link rel="stylesheet" href="style.css?v=7">
+  <title>Ali M.M. Alsahag</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    .navbar {
+      background-color: #4a6fa5;
+    }
+
+    .navbar-brand,
+    .nav-link {
+      color: #fff !important;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+      color: #4a6fa5;
+      margin-top: 1.5rem;
+    }
+
+    .profile-img {
+      border-radius: 50%;
+      max-width: 250px;
+      margin-bottom: 1rem;
+    }
+
+    .sidebar {
+      background-color: #f0f4f8;
+      padding: 2rem;
+      border-radius: 0.5rem;
+    }
+
+    a {
+      color: #4a6fa5;
+    }
+
+    a:hover {
+      color: #3a5683;
+    }
+  </style>
 </head>
 
 <body>
 
-    <!-- Header with Centered Social Media and Navigation -->
-    <header>
-        <div class="header-container">
-            <!-- Social Media Icons -->
-            <div class="social-icons">
-                <a href="https://github.com/aalsahag" target="_blank">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub">
-                </a>
-                <a href="https://www.linkedin.com/in/ali-alsahag-42b87236/" target="_blank">
-                    <img src="linkedin-icon.png" alt="LinkedIn">
-                </a>
-                <a href="https://x.com/alkazmi80" target="_blank">
-                    <img src="twitter-icon.png" alt="Twitter">
-                </a>
-            </div>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Ali M.M. Alsahag</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#research">Research</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#news">News</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-            <!-- Navigation Bar -->
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="cv.html">CV</a></li>
-                    <li><a href="publications.html">Publications</a></li>
-                    <li><a href="teaching.html">Teaching</a></li>
-                    <li><a href="outreach.html">Outreach</a></li>
-                    <li><a href="projects.html">Research Projects</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-lg-8">
+        <section id="home">
+          <img src="profile.jpg" alt="Ali M.M. Alsahag" class="img-fluid profile-img">
+          <h1>Ali M.M. Alsahag</h1>
+          <p class="lead">Researcher | Scientist | Academic</p>
+          <p>Science Park 904, Amsterdam, The Netherlands</p>
+        </section>
+
+
+        <section id="research">
+          <h2>Research Background & Interests</h2>
+          <p><strong>Energy Consumption Forecasting:</strong> Developing advanced machine learning models to predict energy demand patterns, with a focus on enhancing the accuracy and lead time of forecasts. My latest publication, "Enhancing the Predictability of Wintertime Energy Demand in The Netherlands Using Ensemble Model Prophet-LSTM," addresses the challenges of energy demand forecasting in the context of rising energy prices and climate change impacts.</p>
+
+          <p><strong>AI-Based Environmental Monitoring:</strong> Leading projects such as "AI-Based Monitoring and Quality Prediction of Groundwater in Zuid-Holland," aiming to integrate artificial intelligence techniques for environmental sustainability.</p>
+
+          <p><strong>Transportation Analytics:</strong> Investigating the application of machine learning in transportation systems, exemplified by the project "Forecasting the Evolution of Delays and Its Influencers in the Dutch Train Network Using Machine Learning," which seeks to improve the efficiency and reliability of train services in the Netherlands.</p>
+        </section>
+
+        <section id="about">
+          <h2>About me</h2>
+          <p>I am a lecturer and researcher at the University of Amsterdam, specializing in data science and artificial intelligence. My work focuses on developing innovative solutions that bridge the gap between technology and real-world applications.</p>
+          <p>I hold a Ph.D. in Computer Science and have an international academic background, having pursued studies and research opportunities across different countries. This diverse experience has equipped me with a broad perspective and a deep understanding of global technological challenges and solutions.</p>
+        </section>
+
+        <section id="news">
+          <h2>News</h2>
+          <div class="mb-4">
+            <p><strong>Jan 15, 2025</strong> - New Research Published!</p>
+            <p>Our latest paper on AI-based energy forecasting in the Netherlands has been accepted in Journal Name.</p>
+          </div>
+          <div class="mb-4">
+            <p><strong>Oct 22, 2015</strong> - Research Update</p>
+            <p>Our latest paper on AI-based energy forecasting in the Netherlands has been accepted.</p>
+          </div>
+        </section>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="sidebar">
+          <h3>Contact Information</h3>
+          <p><strong>Email:</strong> a.m.m.alsahag@uva.nl</p>
+          <p>
+            University of Amsterdam<br>
+            Science Park 904<br>
+            Amsterdam, The Netherlands
+          </p>
         </div>
-    </header>
+      </div>
+    </div>
+  </div>
 
-    <!-- Main Content (About Section) -->
-    <main>
-        <div class="about-section">
-            <!-- Profile Image -->
-            <img src="profile.jpg" alt="A. Alsahag" class="profile-pic">
-
-            <!-- About Text -->
-            <div class="about-content">
-                <h1>A. Alsahag</h1>
-                <p>Researcher | Scientist | Academic</p>
-                <p>Welcome to my personal webpage! I am A. Alsahag, a researcher in [Your Field].  
-                My research interests include [Topic 1, Topic 2, Topic 3].</p>
-            </div>
-        </div>
-    </main>
-
-    <!-- Footer -->
-    <footer>
-        <p>© 2024 A. Alsahag | <a href="contact.html">Contact</a></p>
-    </footer>
+  <footer class="bg-light text-center text-muted py-3 mt-5">
+    <p>&copy; 2025 Ali M.M. Alsahag | <a href="https://github.com/mavroudisv/plain-academic"
+        class="text-muted">Plain Academic</a></p>
+  </footer>
 
 </body>
+
 </html>
