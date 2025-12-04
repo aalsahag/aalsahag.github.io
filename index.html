@@ -33,16 +33,13 @@
       margin-top: 1.5rem;
     }
 
+    /* Updated photo styling: left-aligned, larger, square, circular crop */
     .profile-img {
       border-radius: 50%;
-      max-width: 320px;          /* increased from 250px */
-      width: 100%;
-      height: auto;
+      width: 280px;       /* make it a bit larger */
+      height: 280px;      /* same as width -> square */
+      object-fit: cover;  /* crop nicely inside the circle */
       margin-bottom: 1rem;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      box-shadow: 0 0 12px rgba(0, 0, 0, 0.12);
     }
 
     .sidebar {
