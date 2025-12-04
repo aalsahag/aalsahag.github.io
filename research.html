@@ -1,1 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <title>Research Projects – Ali M.M. Alsahag</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    .navbar {
+      background-color: #4a6fa5;
+    }
+
+    .navbar-brand,
+    .nav-link {
+      color: #fff !important;
+    }
+
+    .nav-link.active {
+      font-weight: 700;
+      text-decoration: underline;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+      color: #4a6fa5;
+      margin-top: 1.5rem;
+    }
+
+    .sidebar {
+      background-color: #f0f4f8;
+      padding: 2rem;
+      border-radius: 0.5rem;
+    }
+
+    a {
+      color: #4a6fa5;
+    }
+
+    a:hover {
+      color: #3a5683;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Ali M.M. Alsahag</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="research.html">Research Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="publications.html">Publications</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#news">News</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-5 mb-5">
+    <div class="row">
+      <div class="col-lg-8">
+
+        <h1>Research Projects</h1>
+        <p class="lead">
+          I develop AI and data science methods for sustainable, climate-resilient socio-technical systems, with a
+          focus on energy, transportation, environmental monitoring and responsible AI.
+        </p>
+
+        <!-- Energy consumption / climate -->
+        <section>
+          <h2>AI for Energy Demand &amp; Climate-Resilient Systems</h2>
+          <p>
+            This line of work focuses on forecasting national and regional energy demand under climate and socio-economic
+            variability, with an emphasis on interpretable and operationally useful models.
+          </p>
+          <ul>
+            <li>Hybrid SARIMAX, Prophet–LSTM, Seq2Seq and Transformer-based models for electricity demand in the Netherlands.</li>
+            <li>Integration of subseasonal climate signals and economic indicators to improve wintertime energy planning.</li>
+            <li>Uncertainty quantification and explainability (e.g. CRPS/Brier, SHAP, attention) to support transparent decision-making for grid operators and policymakers.</li>
+          </ul>
+        </section>
+
+        <!-- Transportation / rail -->
+        <section>
+          <h2>Transportation Analytics &amp; Rail Operations</h2>
+          <p>
+            In transportation, I work on forecasting travel demand and service reliability in complex rail networks,
+            combining graph-based and temporal models with environmental data.
+          </p>
+          <ul>
+            <li>Spatiotemporal models for delay and cancellation prediction in the Dutch railway network using multi-year operational and weather data.</li>
+            <li>Graph neural networks and graph–sequence hybrids (e.g. GAT–LSTM, DGNN–LSTM) for network-aware predictions.</li>
+            <li>Explainable AI for operations: attention-based explanations and SHAP analysis to help operators understand drivers of disruption.</li>
+            <li>Leaf-fall and asset-condition modelling from satellite time series to anticipate infrastructure-related disruptions.</li>
+          </ul>
+        </section>
+
+        <!-- Groundwater -->
+        <section>
+          <h2>Environmental Monitoring &amp; Groundwater Quality</h2>
+          <p>
+            This research applies time-series and transfer learning methods to environmental sensing data, with a focus
+            on sustainable water management.
+          </p>
+          <ul>
+            <li>AI-based monitoring and quality prediction of groundwater in Zuid-Holland using LSTM and transfer learning.</li>
+            <li>Fusion of hydrological, meteorological and operational measurements for robust water quality forecasts.</li>
+            <li>Decision-support tools to assist regional authorities in managing environmental risks and monitoring regimes.</li>
+          </ul>
+        </section>
+
+        <!-- Fairness in X-ray -->
+        <section>
+          <h2>Fairness &amp; Explainability in Medical Imaging</h2>
+          <p>
+            In healthcare, my work explores fairness-aware and explainable AI for clinical decision-support, especially
+            in medical imaging.
+          </p>
+          <ul>
+            <li>Fairness-aware CNN and Vision Transformer models for chest X-ray analysis.</li>
+            <li>Design and evaluation of fairness metrics and subgroup analyses to detect and reduce performance disparities.</li>
+            <li>Uncertainty-aware and explainable predictions (saliency, attention, SHAP) to support trustworthy deployment in clinical workflows.</li>
+          </ul>
+        </section>
+
+        <!-- Other / interactive AI -->
+        <section>
+          <h2>Interactive, Ubiquitous &amp; Responsible AI Systems</h2>
+          <p>
+            Beyond domain-specific projects, I collaborate with industry and public partners on interactive and
+            infrastructure-oriented AI systems.
+          </p>
+          <ul>
+            <li>MEC/IoT and human-in-the-loop ML for edge and ubiquitous computing, building on earlier work in green LTE and wireless sensor networks.</li>
+            <li>Decision-support and forecasting systems with Dutch industry partners (e.g. pricing, operations and knowledge graphs in mobility and AEC sectors).</li>
+            <li>Development of reproducible ML pipelines, data engineering workflows and dashboards for operational use.</li>
+          </ul>
+        </section>
+
+      </div>
+
+      <div class="col-lg-4">
+        <div class="sidebar">
+          <h3>Contact Information</h3>
+
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:a.m.m.alsahag@uva.nl">a.m.m.alsahag@uva.nl</a>
+          </p>
+
+          <p>
+            <strong>Website:</strong>
+            <a href="https://aalsahag.github.io/">aalsahag.github.io</a><br>
+            <strong>GitHub:</strong>
+            <a href="https://github.com/aalsahag">github.com/aalsahag</a><br>
+            <strong>LinkedIn:</strong>
+            <a href="https://www.linkedin.com/in/ali-alsahag-42b87236/">ali-alsahag-42b87236</a><br>
+            <strong>Google Scholar:</strong>
+            <a href="https://scholar.google.com/citations?hl=en&amp;user=oBS6ETIAAAAJ">Google Scholar profile</a>
+          </p>
+
+          <p>
+            <strong>Affiliation:</strong><br>
+            Informatics Institute (IvI), Faculty of Science<br>
+            University of Amsterdam<br>
+            Science Park 904<br>
+            Amsterdam, The Netherlands
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-light text-center text-muted py-3 mt-5">
+    <p>&copy; 2025 Ali M.M. Alsahag |
+      <a href="https://github.com/mavroudisv/plain-academic" class="text-muted">Plain Academic</a>
+    </p>
+  </footer>
+
+</body>
+
+</html>
